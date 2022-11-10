@@ -29,6 +29,9 @@
     "prettier": "^2.7.1",
     "semantic-release": "^19.0.5"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
