@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.2.0",
+    "@commitlint/config-conventional": "^17.2.0",
     "commitlint-config-gitmoji": "^2.2.6",
     "cz-customizable": "7.0.0",
     "eslint": "^8.27.0",
