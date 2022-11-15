@@ -6,5 +6,11 @@
       "next-major",
       {"name": "alpha", "prerelease": true, "channel": "alpha"},
       {"name": "beta", "prerelease": true, "channel": "beta"}
+  ],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    "@semantic-release/npm",
+    "@semantic-release/git"
   ]
 }
