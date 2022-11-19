@@ -1,4 +1,5 @@
 module.exports = {
+  extends: ["gitmoji"],
   rules: {
     "header-max-length": [2, "always", 150],
     "type-enum": [
@@ -40,9 +41,9 @@ module.exports = {
     },
     types: [
       {
-        value: "feat",
         name: "feat:     ✨  A new feature",
         emoji: ":sparkles:",
+        value: "feat",
       },
       { value: "fix", name: "fix:      🐛  A bug fix", emoji: ":bug:" },
       {
@@ -92,14 +93,14 @@ module.exports = {
       },
     ],
     useEmoji: true,
-    emojiAlign: "center",
+    emojiAlign: "left",
     themeColorCode: "",
     scopes: [
       { name: "ui" },
       { name: "ci" },
       { name: "tests" },
       { name: "core" },
-      { name: "tools" },
+      { name: "tooling" },
       { name: "style" },
     ],
     allowCustomScopes: true,
@@ -123,9 +124,7 @@ module.exports = {
     maxHeaderLength: 150,
     maxSubjectLength: Infinity,
     minSubjectLength: 0,
-    scopeOverrides: {
-      fix: [{ name: "style" }, { name: "tests" }],
-    },
+    scopeOverrides: undefined,
     defaultBody: "",
     defaultIssues: "",
     defaultScope: "",

@@ -71,7 +71,7 @@ module.exports = {
   },
 
   allowCustomScopes: true,
-  allowBreakingChanges: ["feat", "fix"],
+  allowBreakingChanges: [":sparkles: feat", "fix"],
   // skip any questions you want
   // skipQuestions: ["body"],
   subjectLimit: 100,
