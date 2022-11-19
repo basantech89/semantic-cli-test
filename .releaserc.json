@@ -21,14 +21,6 @@
       {
         "releaseRules": [
           {
-            "breaking": true,
-            "release": "major"
-          },
-          {
-            "revert": true,
-            "release": "patch"
-          },
-          {
             "type": ":sparkles: feat",
             "release": "minor"
           },
@@ -41,74 +33,22 @@
             "release": "patch"
           },
           {
-            "emoji": ":racehorse:",
+            "type": ":ambulance: hotfix",
             "release": "patch"
           },
           {
-            "emoji": ":bug:",
+            "type": ":lipstick: style",
             "release": "patch"
           },
           {
-            "emoji": ":penguin:",
+            "type": ":ambulance: hotfix",
             "release": "patch"
           },
-          {
-            "emoji": ":apple:",
-            "release": "patch"
-          },
-          {
-            "emoji": ":checkered_flag:",
-            "release": "patch"
-          },
-          {
-            "tag": "BUGFIX",
-            "release": "patch"
-          },
-          {
-            "tag": "FEATURE",
-            "release": "minor"
-          },
-          {
-            "tag": "SECURITY",
-            "release": "patch"
-          },
-          {
-            "tag": "Breaking",
-            "release": "major"
-          },
-          {
-            "tag": "Fix",
-            "release": "patch"
-          },
-          {
-            "tag": "Update",
-            "release": "minor"
-          },
-          {
-            "tag": "New",
-            "release": "minor"
-          },
-          {
-            "component": "perf",
-            "release": "patch"
-          },
-          {
-            "component": "deps",
-            "release": "patch"
-          },
-          {
-            "type": "FEAT",
-            "release": "minor"
-          },
-          {
-            "type": "FIX",
-            "release": "patch"
-          }
         ]
       }
     ],
     "@semantic-release/release-notes-generator",
     "@semantic-release/npm",
-    "@semantic-release/git"
+    "@semantic-release/github"
   ]
 }
