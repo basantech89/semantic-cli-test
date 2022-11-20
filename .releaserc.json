@@ -25,6 +25,18 @@
             "release": "patch"
           },
           {
+            "type": "hotfix :ambulance:",
+            "release": "patch"
+          },
+          {
+            "type": "hotfix",
+            "release": "patch"
+          },
+          {
+            "type": ":ambulance:",
+            "release": "patch"
+          },
+          {
             "type": "style",
             "release": "patch"
           },

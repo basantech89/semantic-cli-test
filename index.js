@@ -16,6 +16,8 @@ inquirer
         "fifth",
         "sixth",
         "seven",
+        "eight",
+        "nine",
       ],
     },
   ])
