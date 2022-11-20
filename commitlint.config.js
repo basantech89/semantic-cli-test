@@ -41,11 +41,25 @@ module.exports = {
     },
     types: [
       {
-        name: "feat:     ✨  A new feature",
-        emoji: ":sparkles:",
         value: "feat",
+        name: "feat:     🎉  A new feature",
+        emoji: ":tada:",
       },
-      { value: "fix", name: "fix:      🐛  A bug fix", emoji: ":bug:" },
+      {
+        value: "module",
+        name: "module:   ✨  A new module",
+        emoji: ":sparkles:",
+      },
+      {
+        value: "fix",
+        name: "fix:      🐛  A bug fix",
+        emoji: ":bug:",
+      },
+      {
+        value: "hotfix",
+        name: "hotfix:   🚑  Critical hotfix",
+        emoji: ":ambulance:",
+      },
       {
         value: "docs",
         name: "docs:     📝  Documentation only changes",
@@ -63,8 +77,8 @@ module.exports = {
       },
       {
         value: "perf",
-        name: "perf:     ⚡️  A code change that improves performance",
-        emoji: ":zap:",
+        name: "perf:     🚀  A code change that improves performance",
+        emoji: ":rocket:",
       },
       {
         value: "test",
@@ -73,23 +87,33 @@ module.exports = {
       },
       {
         value: "build",
-        name: "build:    📦️   Changes that affect the build system or external dependencies",
-        emoji: ":package:",
+        name: "build:    👷   Changes that affect the build system or external dependencies",
+        emoji: ":construction_worker:",
       },
       {
         value: "ci",
-        name: "ci:       🎡  Changes to our CI configuration files and scripts",
-        emoji: ":ferris_wheel:",
+        name: "ci:       💚  Changes to our CI configuration files and scripts",
+        emoji: ":green_heart:",
       },
       {
         value: "chore",
-        name: "chore:    🔨  Other changes that don't modify src or test files",
-        emoji: ":hammer:",
+        name: "chore:    🚚  Other changes that don't modify src or test files",
+        emoji: ":truck:",
       },
       {
         value: "revert",
         name: "revert:   ⏪️  Reverts a previous commit",
         emoji: ":rewind:",
+      },
+      {
+        value: "wip",
+        name: "wip:      🚧  Work in progress",
+        emoji: ":construction:",
+      },
+      {
+        value: "security",
+        name: "security: 🔒  Fixing security issues",
+        emoji: ":lock:",
       },
     ],
     useEmoji: true,
@@ -110,7 +134,7 @@ module.exports = {
     emptyScopesAlias: "empty",
     upperCaseSubject: false,
     markBreakingChangeMode: false,
-    allowBreakingChanges: ["feat", "fix"],
+    allowBreakingChanges: ["feat", "fix", "hotfix", "module"],
     breaklineNumber: 100,
     breaklineChar: "|",
     skipQuestions: [],

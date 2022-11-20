@@ -21,29 +21,17 @@
       {
         "releaseRules": [
           {
-            "type": ":sparkles: feat",
+            "type": "hotfix",
+            "release": "patch"
+          },
+          {
+            "type": "style",
+            "release": "patch"
+          },
+          {
+            "type": "module",
             "release": "minor"
-          },
-          {
-            "type": ":bug: fix",
-            "release": "patch"
-          },
-          {
-            "type": ":zap: perf",
-            "release": "patch"
-          },
-          {
-            "type": ":ambulance: hotfix",
-            "release": "patch"
-          },
-          {
-            "type": ":lipstick: style",
-            "release": "patch"
-          },
-          {
-            "type": ":ambulance: hotfix",
-            "release": "patch"
-          },
+          }
         ]
       }
     ],
