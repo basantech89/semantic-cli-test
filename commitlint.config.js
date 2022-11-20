@@ -1,5 +1,5 @@
 module.exports = {
-  // extends: ["gitmoji"],
+  extends: ["gitmoji"],
   rules: {
     "header-max-length": [2, "always", 150],
     "type-enum": [
@@ -117,7 +117,7 @@ module.exports = {
       },
     ],
     useEmoji: true,
-    emojiAlign: "center",
+    emojiAlign: "left",
     themeColorCode: "",
     scopes: [
       { name: "ui" },
