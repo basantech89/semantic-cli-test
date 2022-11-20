@@ -22,7 +22,8 @@
         "releaseRules": [
           {
             "type": "hotfix",
-            "release": "patch"
+            "release": "patch",
+            "emoji": ":ambulance:"
           },
           {
             "type": "style",
