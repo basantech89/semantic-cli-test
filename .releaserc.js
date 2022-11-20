@@ -20,7 +20,7 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         parserOpts: {
-          headerPattern: "/^:w: (w*)(?:(([w$.-* ]*)))?: (.*)$/",
+          headerPattern: "/^(:w:) (w*)(?:(([w$.-* ]*)))?: (.*)$/",
         },
         releaseRules: [
           {
