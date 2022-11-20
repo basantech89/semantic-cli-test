@@ -21,6 +21,14 @@
       {
         "releaseRules": [
           {
+            "type": ":sparkles:",
+            "release": "minor"
+          },
+          {
+            "type": "feat",
+            "release": "minor"
+          },
+          {
             "type": ":feat: feat",
             "release": "minor"
           },
