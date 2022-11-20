@@ -21,7 +21,11 @@
       {
         "releaseRules": [
           {
-            "type": "🚑 hotfix",
+            "type": ":sparkles: feat",
+            "release": "minor"
+          },
+          {
+            "type": ":ambulance: hotfix",
             "release": "patch"
           },
           {
