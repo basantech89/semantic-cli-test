@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install",
-    "commit": "cz",
+    "commit": "git-cz",
     "semantic-release": "semantic-release"
   },
   "keywords": [],
@@ -37,7 +37,7 @@
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-customizable"
+      "path": "./node_modules/cz-git"
     }
   },
   "repository": {
