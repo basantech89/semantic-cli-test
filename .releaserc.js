@@ -20,8 +20,7 @@ module.exports = {
       "@semantic-release/commit-analyzer",
       {
         parserOpts: {
-          headerPattern:
-            "/^(?::w*:|(?:\ud83c[\udf00-\udfff])|(?:\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55])(w*)(?:(([w$.-* ]*)))?: (.*)$/",
+          headerPattern: "/^:w: (w*)(?:(([w$.-* ]*)))?: (.*)$/",
         },
         releaseRules: [
           {
