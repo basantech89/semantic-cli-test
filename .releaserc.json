@@ -34,6 +34,10 @@
           },
           {
             "type": ":sparkles: feat",
+            "release": "minor"
+          },
+          {
+            "type": ":sparkles: feat",
             "value": ":sparkles: feat",
             "release": "minor"
           },
