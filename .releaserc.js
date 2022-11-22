@@ -22,7 +22,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        parserOpts: { ...parserOpts, ...gitmojiParserOpts },
+        config: "conventional-changelog-gitmoji-config",
         releaseRules: [
           {
             type: "hotfix",
