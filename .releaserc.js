@@ -1,3 +1,5 @@
+const gitmojiParserOptions = require("@gitmoji/parser-opts");
+
 module.exports = {
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
@@ -19,9 +21,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        parserOpts: {
-          headerPattern: "/^(:w:) (w*)(?:(([w$.-* ]*)))?: (.*)$/",
-        },
+        parserOpts: gitmojiParserOptions,
         releaseRules: [
           {
             type: "hotfix",
