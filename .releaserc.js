@@ -1,4 +1,5 @@
-const gitmojiParserOptions = require("@gitmoji/parser-opts");
+const gitmojiParserOpts = require("@gitmoji/parser-opts");
+const { parserOpts } = require("conventional-changelog-angular");
 
 module.exports = {
   branches: [
@@ -21,7 +22,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        parserOpts: gitmojiParserOptions,
+        parserOpts: { ...parserOpts, ...gitmojiParserOpts },
         releaseRules: [
           {
             type: "hotfix",
