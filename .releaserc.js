@@ -1,6 +1,3 @@
-const gitmojiParserOpts = require("@gitmoji/parser-opts");
-const { parserOpts } = require("conventional-changelog-angular");
-
 module.exports = {
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
@@ -39,7 +36,13 @@ module.exports = {
         ],
       },
     ],
-    "@semantic-release/release-notes-generator",
+    [
+      "@semantic-release/release-notes-generator",
+      {
+        config: "conventional-changelog-gitmoji-config",
+      },
+    ],
+    "@semantic-release/changelog",
     "@semantic-release/npm",
     "@semantic-release/github",
   ],
