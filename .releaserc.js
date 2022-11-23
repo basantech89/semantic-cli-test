@@ -1,4 +1,4 @@
-const { getDisplayName } = require("./displayName");
+const getDisplayName = require("./displayName");
 
 module.exports = {
   branches: [

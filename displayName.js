@@ -45,7 +45,7 @@ const typeMap = {
   },
 };
 
-export const getDisplayName = (type) => {
+const getDisplayName = (type) => {
   if (type in typeMap) {
     const item = typeMap[type];
     const { emoji } = item;
@@ -54,3 +54,5 @@ export const getDisplayName = (type) => {
 
   return type;
 };
+
+module.exports = getDisplayName;
