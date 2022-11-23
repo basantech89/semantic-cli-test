@@ -8,15 +8,7 @@ inquirer
       type: "selectLine",
       message: "Where add line?",
       name: "line",
-      choices: [
-        "first",
-        "second",
-        "third",
-        "fourth",
-        "fifth",
-        "sixth",
-        "seven",
-      ],
+      choices: ["first", "second", "third", "fourth", "fifth", "sixth"],
     },
   ])
   .then(function (answers) {
