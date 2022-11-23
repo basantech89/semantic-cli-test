@@ -19,7 +19,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        config: "conventional-changelog-gitmoji-config",
+        // config: "conventional-changelog-gitmoji-config",
         releaseRules: [
           {
             type: "hotfix",
