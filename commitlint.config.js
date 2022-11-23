@@ -7,6 +7,7 @@ module.exports = {
       "always",
       [
         "feat",
+        "module",
         "fix",
         "hotfix",
         "docs",
