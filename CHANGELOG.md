@@ -1,3 +1,20 @@
+# [3.16.0](https://github.com/basantech89/semantic-cli-test/compare/v3.15.0...v3.16.0) (2022-11-23)
+
+
+### ⚡ Performance Improvements
+
+* **ui**: add nine ([f98a6e5](https://github.com/basantech89/semantic-cli-test/commit/f98a6e5)) 
+
+
+### ✨ Features
+
+* **core**: add feat ([71e54d4](https://github.com/basantech89/semantic-cli-test/commit/71e54d4)) 
+
+
+### 💄 Styles
+
+* **tooling**: add eight ([c61015e](https://github.com/basantech89/semantic-cli-test/commit/c61015e))
+
 # [3.15.0](https://github.com/basantech89/semantic-cli-test/compare/v3.14.0...v3.15.0) (2022-11-23)
 
 
