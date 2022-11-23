@@ -1,3 +1,10 @@
+# [3.13.0](https://github.com/basantech89/semantic-cli-test/compare/v3.12.0...v3.13.0) (2022-11-23)
+
+
+### module
+
+* **tests**: rrgtrgtrg ([9d574a9](https://github.com/basantech89/semantic-cli-test/commit/9d574a9))
+
 # [3.12.0](https://github.com/basantech89/semantic-cli-test/compare/v3.11.0...v3.12.0) (2022-11-23)
 
 # [3.11.0](https://github.com/basantech89/semantic-cli-test/compare/v3.10.0...v3.11.0) (2022-11-23)
