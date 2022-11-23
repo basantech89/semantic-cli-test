@@ -49,7 +49,7 @@ const getDisplayName = (type) => {
   if (type in typeMap) {
     const item = typeMap[type];
     const { emoji } = item;
-    return `${emoji} ${item[label]}`;
+    return `${emoji} ${item["label"]}`;
   }
 
   return type;
