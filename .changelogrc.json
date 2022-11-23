@@ -1,20 +1,4 @@
 {
-  "displayTypes": [
-    "build",
-    "ci",
-    "docs",
-    "feat",
-    "fix",
-    "perf",
-    "refactor",
-    "revert",
-    "style",
-    "test",
-    "chore",
-    "wip",
-    "module",
-    "hotfix"
-  ],
   "withEmoji": true,
   "showAuthor": true
 }
