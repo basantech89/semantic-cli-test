@@ -1,3 +1,15 @@
+# [3.20.0](https://github.com/basantech89/semantic-cli-test/compare/v3.19.0...v3.20.0) (2022-11-23)
+
+
+### 🎉 Features
+
+* **core**: weweew ([4887f5e7b815b74a22bac58ad9f5582e2a39598f](https://github.com/basantech89/semantic-cli-test/commit/4887f5e7b815b74a22bac58ad9f5582e2a39598f)) 
+
+
+### 🚑 Hotfixes
+
+* **ui**: remove ([3aeba8afbf1ba8699a0312c994bed363f5c3a5de](https://github.com/basantech89/semantic-cli-test/commit/3aeba8afbf1ba8699a0312c994bed363f5c3a5de))
+
 # [3.19.0](https://github.com/basantech89/semantic-cli-test/compare/v3.18.0...v3.19.0) (2022-11-23)
 
 
