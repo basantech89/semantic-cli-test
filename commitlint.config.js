@@ -72,7 +72,7 @@ module.exports = {
       },
       {
         value: "refactor",
-        name: "refactor: ♻️   A code change that neither fixes a bug nor adds a feature",
+        name: "refactor: ♻️  A code change that neither fixes a bug nor adds a feature",
         emoji: ":recycle:",
       },
       {
@@ -87,7 +87,7 @@ module.exports = {
       },
       {
         value: "build",
-        name: "build:    👷   Changes that affect the build system or external dependencies",
+        name: "build:    👷  Changes that affect the build system or external dependencies",
         emoji: ":construction_worker:",
       },
       {
@@ -102,7 +102,7 @@ module.exports = {
       },
       {
         value: "revert",
-        name: "revert:   ⏪️  Reverts a previous commit",
+        name: "revert:   ⏪️ Reverts a previous commit",
         emoji: ":rewind:",
       },
       {
