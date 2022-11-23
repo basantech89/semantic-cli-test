@@ -1,3 +1,5 @@
+const { getDisplayName } = require("./displayName");
+
 module.exports = {
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
@@ -39,7 +41,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        // config: "conventional-changelog-gitmoji-config",
+        config: "conventional-changelog-gitmoji-config",
         writerOpts: {
           transform: (commit, context) => {
             let discard = true;
@@ -50,39 +52,26 @@ module.exports = {
               discard = false;
             });
 
-            if (commit.type === "🎉 feat") {
-              commit.type = "🎉 Features";
-            } else if (commit.type === "fix") {
-              commit.type = "🐛 Bug Fixes";
-            } else if (commit.type === "perf") {
-              commit.type = "🚀 Performance Improvements";
-            } else if (commit.type === "revert" || commit.revert) {
-              commit.type = "⏪️ Reverts";
-            } else if (discard) {
-              return;
-            } else if (commit.type === "docs") {
-              commit.type = "📝 Documentation";
-            } else if (commit.type === "style") {
-              commit.type = "💄 Styles";
-            } else if (commit.type === "refactor") {
-              commit.type = "♻️ Code Refactoring";
-            } else if (commit.type === "test") {
-              commit.type = "✅ Tests";
-            } else if (commit.type === "build") {
-              commit.type = "👷 Build System";
-            } else if (commit.type === "ci") {
-              commit.type = "💚 Continuous Integration";
-            } else if (commit.type === "module") {
-              commit.type = "✨ Module";
-            } else if (commit.type === "hotfix") {
-              commit.type = "✨ Hotfixes";
-            } else if (commit.type === "chore") {
-              commit.type = "🚚 Chores";
-            } else if (commit.type === "wip") {
-              commit.type = "🚧 WIP";
-            } else if (commit.type === "security") {
-              commit.type = "🔒 Security Fixes";
-            }
+            const displayTypes = [
+              "build",
+              "ci",
+              "docs",
+              "feat",
+              "fix",
+              "perf",
+              "refactor",
+              "revert",
+              "style",
+              "test",
+              "chore",
+              "wip",
+              "module",
+              "hotfix",
+            ];
+
+            if (!displayTypes.includes(commit.type) && discard) return;
+
+            commit.type = getDisplayName(commit.type);
 
             if (commit.scope === "*") {
               commit.scope = "";
