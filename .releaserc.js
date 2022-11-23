@@ -39,8 +39,8 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        config: "conventional-changelog-gitmoji-config",
-        parserOpts: {
+        // config: "conventional-changelog-gitmoji-config",
+        presetConfig: {
           types: [
             {
               type: "hotfix",
