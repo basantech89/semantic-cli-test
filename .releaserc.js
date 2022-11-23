@@ -39,7 +39,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        config: "conventional-changelog-gitmoji-config",
+        // config: "conventional-changelog-gitmoji-config",
         writerOpts: {
           transform: (commit, context) => {
             let discard = true;
