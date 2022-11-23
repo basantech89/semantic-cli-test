@@ -19,7 +19,7 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        // config: "conventional-changelog-gitmoji-config",
+        config: "conventional-changelog-gitmoji-config",
         releaseRules: [
           {
             type: "hotfix",
@@ -39,31 +39,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        // config: "conventional-changelog-gitmoji-config",
-        presetConfig: {
-          types: [
-            {
-              type: "hotfix",
-              section: "Bug Fixes",
-              hidden: false,
-            },
-            {
-              type: "style",
-              section: "Features",
-              hidden: false,
-            },
-            {
-              type: "module",
-              section: "Features",
-              hidden: false,
-            },
-            {
-              type: "✨ module",
-              section: "Features",
-              hidden: false,
-            },
-          ],
-        },
+        config: "conventional-changelog-gitmoji-config",
       },
     ],
     "@semantic-release/changelog",
