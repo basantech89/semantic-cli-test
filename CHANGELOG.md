@@ -1,3 +1,10 @@
+# [3.15.0](https://github.com/basantech89/semantic-cli-test/compare/v3.14.0...v3.15.0) (2022-11-23)
+
+
+### module
+
+* **core**: erfefer ([5851e4b](https://github.com/basantech89/semantic-cli-test/commit/5851e4b))
+
 # [3.14.0](https://github.com/basantech89/semantic-cli-test/compare/v3.13.0...v3.14.0) (2022-11-23)
 
 
