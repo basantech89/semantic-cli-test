@@ -1,3 +1,5 @@
+# [3.5.0](https://github.com/basantech89/semantic-cli-test/compare/v3.4.1...v3.5.0) (2022-11-23)
+
 ## [3.4.1](https://github.com/basantech89/semantic-cli-test/compare/v3.4.0...v3.4.1) (2022-11-23)
 
 # [3.4.0](https://github.com/basantech89/semantic-cli-test/compare/v3.3.0...v3.4.0) (2022-11-23)
