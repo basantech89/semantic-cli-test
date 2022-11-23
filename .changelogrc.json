@@ -14,5 +14,7 @@
     "wip",
     "module",
     "hotfix"
-  ]
+  ],
+  "withEmoji": true,
+  "showAuthor": true
 }
