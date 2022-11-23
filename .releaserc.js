@@ -51,7 +51,7 @@ module.exports = {
               hidden: false,
             },
             {
-              type: "module",
+              type: "✨ module",
               hidden: false,
             },
           ],
