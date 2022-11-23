@@ -45,7 +45,6 @@ module.exports = {
             {
               type: "module",
               section: "Features",
-              hidden: false,
             },
           ],
         },

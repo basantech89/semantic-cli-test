@@ -10,7 +10,7 @@
     "semantic-release": "semantic-release"
   },
   "keywords": [],
-  "author": "",
+  "author": "Basant Soni",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^8.0.0",
