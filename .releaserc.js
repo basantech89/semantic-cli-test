@@ -40,6 +40,22 @@ module.exports = {
       "@semantic-release/release-notes-generator",
       {
         config: "conventional-changelog-gitmoji-config",
+        presetConfig: {
+          types: [
+            {
+              type: "hotfix",
+              hidden: false,
+            },
+            {
+              type: "style",
+              hidden: false,
+            },
+            {
+              type: "module",
+              hidden: false,
+            },
+          ],
+        },
       },
     ],
     "@semantic-release/changelog",
