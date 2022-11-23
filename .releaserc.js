@@ -50,7 +50,7 @@ module.exports = {
               discard = false;
             });
 
-            if (commit.type === "feat") {
+            if (commit.type === "🎉 feat") {
               commit.type = "🎉 Features";
             } else if (commit.type === "fix") {
               commit.type = "🐛 Bug Fixes";
