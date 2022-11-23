@@ -1,6 +1,6 @@
 {
   "name": "node-tests-lib",
-  "version": "3.17.1",
+  "version": "3.17.2",
   "description": "",
   "main": "index.js",
   "scripts": {
