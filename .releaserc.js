@@ -22,15 +22,9 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        parserOpts: {
-          ...gitmojiParserOpts,
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
-          revertPattern: /revert:\s([\s\S]*?)\s*This reverts commit (\w*)\./,
-          revertCorrespondence: [`header`, `hash`],
-        },
         releaseRules: [
           {
-            type: "hotfix",
+            type: "🚑 hotfix",
             release: "patch",
           },
           {
