@@ -24,8 +24,14 @@ module.exports = {
       {
         releaseRules: [
           {
+            type: "hotfix",
+            release: "patch",
+            emoji: ":ambulance:",
+          },
+          {
             type: "🚑 hotfix",
             release: "patch",
+            emoji: ":ambulance:",
           },
           {
             type: "style",
