@@ -27,20 +27,24 @@ module.exports = {
             type: "hotfix",
             release: "patch",
             emoji: ":ambulance:",
+            value: "hotfix",
           },
           {
             type: "🚑 hotfix",
             release: "patch",
             emoji: ":ambulance:",
+            value: "hotfix",
           },
           {
             type: ":ambulance: hotfix",
             release: "patch",
             emoji: ":ambulance:",
+            value: "hotfix",
           },
           {
             type: ":ambulance: hotfix",
             release: "patch",
+            value: "hotfix",
           },
           {
             type: "style",
