@@ -34,6 +34,15 @@ module.exports = {
             emoji: ":ambulance:",
           },
           {
+            type: ":ambulance: hotfix",
+            release: "patch",
+            emoji: ":ambulance:",
+          },
+          {
+            type: ":ambulance: hotfix",
+            release: "patch",
+          },
+          {
             type: "style",
             release: "patch",
           },
