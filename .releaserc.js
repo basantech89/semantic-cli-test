@@ -1,4 +1,5 @@
 const transform = require("./transform");
+const gitmojiParserOpts = require("@gitmoji/parser-opts");
 
 module.exports = {
   branches: [
@@ -21,7 +22,12 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
-        config: "conventional-changelog-gitmoji-config",
+        parserOpts: {
+          ...gitmojiParserOpts,
+          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES"],
+          revertPattern: /revert:\s([\s\S]*?)\s*This reverts commit (\w*)\./,
+          revertCorrespondence: [`header`, `hash`],
+        },
         releaseRules: [
           {
             type: "hotfix",

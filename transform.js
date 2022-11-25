@@ -138,11 +138,7 @@ const transform = (commit, context) => {
 
   // remove references that already appear in the subject
   commit.references = commit.references.filter((reference) => {
-    if (issues.indexOf(reference.issue) === -1) {
-      return true;
-    }
-
-    return false;
+    return issues.indexOf(reference.issue) === -1;
   });
 
   return commit;
