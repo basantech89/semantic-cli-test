@@ -7,6 +7,7 @@ const parserOpts = {
 const types = commitTypes.map((type) => ({
   type: type.value,
   section: type.section,
+  hidden: !!type.hidden,
 }));
 
 module.exports = {
