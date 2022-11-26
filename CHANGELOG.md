@@ -1,3 +1,10 @@
+## [4.0.1](https://github.com/basantech89/semantic-cli-test/compare/v4.0.0...v4.0.1) (2022-11-26)
+
+
+### 🐛 Bug Fixes
+
+* **fix:** remove ten ([fd3a3d3](https://github.com/basantech89/semantic-cli-test/commit/fd3a3d340891c8c88fb807e19200828dac4c4679))
+
 ## [4.0.0](https://github.com/basantech89/semantic-cli-test/compare/v3.24.0...v4.0.0) (2022-11-26)
 
 
