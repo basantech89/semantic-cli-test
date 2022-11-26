@@ -1,5 +1,7 @@
-const transform = require("./transform");
-const gitmojiParserOpts = require("@gitmoji/parser-opts");
+const parserOpts = {
+  headerPattern:
+    /^(?::\w*:|(?:\ud83c[\udf00-\udfff])|(?:\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55])\s(?<type>\w*)(?:\((?<scope>.*)\))?!?:\s(?<subject>(?:(?!#).)*(?:(?!\s).))(?:\s\(?\)?)?$/,
+};
 
 module.exports = {
   branches: [
@@ -22,29 +24,11 @@ module.exports = {
     [
       "@semantic-release/commit-analyzer",
       {
+        parserOpts,
         releaseRules: [
           {
             type: "hotfix",
             release: "patch",
-            emoji: ":ambulance:",
-            value: "hotfix",
-          },
-          {
-            type: "🚑 hotfix",
-            release: "patch",
-            emoji: ":ambulance:",
-            value: "hotfix",
-          },
-          {
-            type: ":ambulance: hotfix",
-            release: "patch",
-            emoji: ":ambulance:",
-            value: "hotfix",
-          },
-          {
-            type: ":ambulance: hotfix",
-            release: "patch",
-            value: "hotfix",
           },
           {
             type: "style",
@@ -60,8 +44,7 @@ module.exports = {
     [
       "@semantic-release/release-notes-generator",
       {
-        config: "conventional-changelog-gitmoji-config",
-        writerOpts: { transform },
+        parserOpts,
       },
     ],
     "@semantic-release/changelog",
