@@ -1,3 +1,27 @@
+## [4.0.0](https://github.com/basantech89/semantic-cli-test/compare/v3.24.0...v4.0.0) (2022-11-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **core:** Add New Featuren Ten
+
+### 🐛 Bug Fixes
+
+* **style:** wewedwe ([69a9cf0](https://github.com/basantech89/semantic-cli-test/commit/69a9cf075faac4fea8b65d4840aff818e77d3ce1))
+
+
+### 👷 Build System
+
+* **tooling:** build add ([a9700f1](https://github.com/basantech89/semantic-cli-test/commit/a9700f1fde400942c2d7e086464e5f9524ef62b0))
+
+
+### 🎉 Features
+
+* **ci:** feat ([4259e88](https://github.com/basantech89/semantic-cli-test/commit/4259e8847f807db8200abebb39f10d90238206a0))
+* **core:** add feat ten ([077c36c](https://github.com/basantech89/semantic-cli-test/commit/077c36c8c0a6a25284958a4d5e38f7cabb07528f))
+* **core:** add module ten ([74f1276](https://github.com/basantech89/semantic-cli-test/commit/74f1276b95dede6a68a3ecbfbea2c4dc08da471a))
+* **core:** deweew ([003e2a5](https://github.com/basantech89/semantic-cli-test/commit/003e2a52a9e68d01c10e58c40dc0b2890a795212))
+
 ## [3.24.0](https://github.com/basantech89/semantic-cli-test/compare/v3.23.0...v3.24.0) (2022-11-26)
 
 
