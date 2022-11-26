@@ -3,6 +3,19 @@ const parserOpts = {
     /^(?::\w*:|(?:\ud83c[\udf00-\udfff])|(?:\ud83d[\udc00-\ude4f\ude80-\udeff])|[\u2600-\u2B55])\s(?<type>\w*)(?:\((?<scope>.*)\))?!?:\s(?<subject>(?:(?!#).)*(?:(?!\s).))(?:\s\(?\)?)?$/,
 };
 
+const types = [
+  { type: "feat", section: "Features" },
+  { type: "module", section: "Features" },
+  { type: "hotfix", section: "Bug Fixes" },
+  { type: "fix", section: "Bug Fixes" },
+  { type: "chore", hidden: false },
+  { type: "docs", hidden: false },
+  { type: "style", hidden: false },
+  { type: "refactor", hidden: false },
+  { type: "perf", hidden: false },
+  { type: "test", hidden: false },
+];
+
 module.exports = {
   branches: [
     "+([0-9])?(.{+([0-9]),x}).x",
@@ -45,6 +58,8 @@ module.exports = {
       "@semantic-release/release-notes-generator",
       {
         parserOpts,
+        writerOpts: { types },
+        presetConfig: { types },
       },
     ],
     "@semantic-release/changelog",
