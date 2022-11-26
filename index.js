@@ -18,6 +18,7 @@ inquirer
         "seven",
         "eight",
         "nine",
+        "ten",
       ],
     },
   ])
