@@ -1,3 +1,10 @@
+## [3.24.0](https://github.com/basantech89/semantic-cli-test/compare/v3.23.0...v3.24.0) (2022-11-26)
+
+
+### Features
+
+* **core:** edede ([cc18ac4](https://github.com/basantech89/semantic-cli-test/commit/cc18ac4aa4ff92deeb13913f1e0cddc0d5bcdd32))
+
 # [3.23.0](https://github.com/basantech89/semantic-cli-test/compare/v3.22.1...v3.23.0) (2022-11-26)
 
 ## [3.22.1](https://github.com/basantech89/semantic-cli-test/compare/v3.22.0...v3.22.1) (2022-11-26)
