@@ -19,7 +19,6 @@ inquirer
         "eight",
         "nine",
         "ten",
-        "eleven",
       ],
     },
   ])
