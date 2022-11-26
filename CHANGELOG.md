@@ -1,3 +1,10 @@
+# [3.21.0](https://github.com/basantech89/semantic-cli-test/compare/v3.20.0...v3.21.0) (2022-11-26)
+
+
+### Features
+
+* **tests:** ewdwedew ([1385513](https://github.com/basantech89/semantic-cli-test/commit/1385513017cbbe68ffaefa8b4ed68230c0d486dc))
+
 # [3.20.0](https://github.com/basantech89/semantic-cli-test/compare/v3.19.0...v3.20.0) (2022-11-23)
 
 
