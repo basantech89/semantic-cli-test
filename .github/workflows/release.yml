@@ -22,6 +22,8 @@ jobs:
           node-version: 'lts/*'
       - name: Dependencies Installation
         run: npm ci
+      - name: Build
+        run: npm run build
       - name: NPM Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
