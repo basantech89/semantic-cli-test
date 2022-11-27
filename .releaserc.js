@@ -59,7 +59,12 @@ module.exports = {
       },
     ],
     "@semantic-release/changelog",
-    "@semantic-release/npm",
+    [
+      "@semantic-release/npm",
+      {
+        tarballDir: "dist",
+      },
+    ],
     [
       "@semantic-release/git",
       {
