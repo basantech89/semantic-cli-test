@@ -1,15 +1,15 @@
 {
   "name": "node-tests-lib",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "description": "",
   "main": "index.js",
   "bin": {
-		"node-tests-lib": "index.js"
-	},
+    "node-tests-lib": "index.js"
+  },
   "scripts": {
     "node-tests-lib": "node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-		"build": "babel src --extensions .js,.ts --out-dir dist",
+    "build": "babel src --extensions .js,.ts --out-dir dist",
     "prepare": "husky install",
     "commit": "git-cz",
     "semantic-release": "semantic-release"
