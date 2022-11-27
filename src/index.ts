@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+import choices from "./common";
+
 const inquirer = require("inquirer");
 const selectLine = require("inquirer-select-line");
 
@@ -8,18 +12,7 @@ inquirer
       type: "selectLine",
       message: "Where add line?",
       name: "line",
-      choices: [
-        "first",
-        "second",
-        "third",
-        "fourth",
-        "fifth",
-        "sixth",
-        "seven",
-        "eight",
-        "nine",
-        "ten",
-      ],
+      choices,
     },
   ])
   .then(function (answers) {
