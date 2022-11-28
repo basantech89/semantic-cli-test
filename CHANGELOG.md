@@ -1,3 +1,12 @@
+## [4.4.0](https://github.com/basantech89/semantic-cli-test/compare/v4.3.1...v4.4.0) (2022-11-28)
+
+
+### 🎉 Features
+
+* **core:** ewdewdw ([1f8ed55](https://github.com/basantech89/semantic-cli-test/commit/1f8ed55a11ad5707906a4541312037f0b7671994))
+* **core:** ewede ([728bb52](https://github.com/basantech89/semantic-cli-test/commit/728bb527485274b6097e028b58b0032040c566ee))
+* **core:** sqsws ([f34dbd3](https://github.com/basantech89/semantic-cli-test/commit/f34dbd309c67b82239ae71a5407ea0704142ad51))
+
 ## [4.3.1](https://github.com/basantech89/semantic-cli-test/compare/v4.3.0...v4.3.1) (2022-11-27)
 
 
