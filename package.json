@@ -12,7 +12,8 @@
     "build": "babel src --extensions .js,.ts --out-dir dist",
     "prepare": "husky install",
     "commit": "git-cz",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
   },
   "keywords": [],
   "author": "Basant Soni",
