@@ -2,9 +2,9 @@
   "name": "node-tests-lib",
   "version": "4.3.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "bin": {
-    "node-tests-lib": "index.js"
+    "node-tests-lib": "dist/index.js"
   },
   "scripts": {
     "node-tests-lib": "node dist/index.js",
@@ -12,8 +12,7 @@
     "build": "babel src --extensions .js,.ts --out-dir dist",
     "prepare": "husky install",
     "commit": "git-cz",
-    "semantic-release": "semantic-release",
-    "postversion": "cp -r package.json .. && cp -r npm-shrinkwrap.json .."
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "Basant Soni",
