@@ -60,11 +60,6 @@ module.exports = {
     ],
     "@semantic-release/changelog",
     "@semantic-release/npm",
-    [
-      "@semantic-release/github",
-      {
-        assets: ["dist"],
-      },
-    ],
+    "@semantic-release/github",
   ],
 };
