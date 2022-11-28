@@ -61,12 +61,10 @@ module.exports = {
     "@semantic-release/changelog",
     "@semantic-release/npm",
     [
-      "@semantic-release/git",
+      "@semantic-release/github",
       {
-        message:
-          "🔖 chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}",
+        assets: ["dist"],
       },
     ],
-    "@semantic-release/github",
   ],
 };
