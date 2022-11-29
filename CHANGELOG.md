@@ -1,3 +1,10 @@
+## [4.10.0](https://github.com/basantech89/semantic-cli-test/compare/v4.9.0...v4.10.0) (2022-11-29)
+
+
+### 🎉 Features
+
+* **core:** new new eeee ([1edb50c](https://github.com/basantech89/semantic-cli-test/commit/1edb50c2b27689cf6ddfa5048c6c86cee2f95de0))
+
 ## [4.9.0](https://github.com/basantech89/semantic-cli-test/compare/v4.8.0...v4.9.0) (2022-11-29)
 
 
