@@ -6,7 +6,6 @@ const choices = [
   "fifth",
   "sixth",
   "seven",
-  "eight",
 ];
 
 export default choices;

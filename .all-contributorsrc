@@ -1,0 +1,16 @@
+{
+  "projectName": "semantic-cli-test",
+  "projectOwner": "basantech89",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "gitmoji",
+  "commitTemplate": "<%= prefix %> docs(contribution): <%= (newContributor ? 'Add' : 'Update') %> @<%= username %> as a contributor [skip ci]",
+  "contributors": [],
+  "contributorsPerLine": 7,
+  "linkToUsage": true
+}
