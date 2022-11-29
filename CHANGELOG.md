@@ -1,3 +1,13 @@
+## [4.9.0](https://github.com/basantech89/semantic-cli-test/compare/v4.8.0...v4.9.0) (2022-11-29)
+
+
+### 🎉 Features
+
+* **core:** dddddddddddd ([3257faa](https://github.com/basantech89/semantic-cli-test/commit/3257faaf3f7381531ebd4f39edc9c885cd12f3a2))
+* **core:** efefr ([fb4e16a](https://github.com/basantech89/semantic-cli-test/commit/fb4e16a73f22d1e7b5c3b7a36e25105ff1c3fc67))
+* **core:** ferff ([c3a077c](https://github.com/basantech89/semantic-cli-test/commit/c3a077c4b527515cbe9727e8d75185d56a0de98c))
+* **tests:** fefre ([cf4c562](https://github.com/basantech89/semantic-cli-test/commit/cf4c562810280a2c0f1c36445730db93e616fee7))
+
 ## [4.4.0](https://github.com/basantech89/semantic-cli-test/compare/v4.3.1...v4.4.0) (2022-11-28)
 
 

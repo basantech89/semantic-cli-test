@@ -1,6 +1,6 @@
 {
   "name": "node-tests-lib",
-  "version": "4.4.0",
+  "version": "4.9.0",
   "description": "",
   "main": "dist/index.js",
   "bin": {
