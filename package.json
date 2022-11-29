@@ -7,7 +7,7 @@
     "node-tests-lib": "dist/index.js"
   },
   "files": [
-    "dist"
+    "dist/*"
   ],
   "scripts": {
     "node-tests-lib": "node dist/index.js",
