@@ -1,3 +1,10 @@
+## [4.12.0](https://github.com/basantech89/semantic-cli-test/compare/v4.11.0...v4.12.0) (2022-11-29)
+
+
+### 🎉 Features
+
+* **core:** vvvvvvvvv ([7911049](https://github.com/basantech89/semantic-cli-test/commit/79110499ef59ebc7cc8bcb40bcf464f281cef324))
+
 ## [4.11.0](https://github.com/basantech89/semantic-cli-test/compare/v4.10.0...v4.11.0) (2022-11-29)
 
 
